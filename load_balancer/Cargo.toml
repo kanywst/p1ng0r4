@@ -1,0 +1,11 @@
+[package]
+name = "load_balancer"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+pingora = { workspace = true, features = ["lb"] }
+tokio = { workspace = true }
+async-trait = { workspace = true }
+env_logger = { workspace = true }
+log = { workspace = true }
